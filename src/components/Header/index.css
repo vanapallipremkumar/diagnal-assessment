@@ -1,0 +1,63 @@
+.header-container {
+  background: url("../../assets/nav_bar.png") no-repeat;
+  background-size: cover;
+  column-gap: 8px;
+  display: flex;
+  flex-direction: row;
+  min-height: var(--header-height);
+  justify-content: space-between;
+  padding: 12px 16px 0px 16px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+.title-container {
+  align-items: center;
+  column-gap: 8px;
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 100%;
+}
+
+.header-button {
+  background-color: transparent;
+  border-style: none;
+  height: 32px;
+  width: 32px;
+}
+
+.header-icon {
+  background-color: transparent;
+  height: 16px;
+  width: 16px;
+}
+
+.header-title {
+  color: var(--text-color);
+  font-family: "Titillium Web";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header-input {
+  background-color: #666666;
+  border-radius: 8px;
+  border-style: none;
+  color: var(--text-color);
+  font-family: "Titillium Web";
+  height: 32px;
+  padding: 0px 16px;
+  width: 100%;
+}
+
+.header-input::placeholder {
+  color: #ffffff65;
+  font-family: "Titillium Web";
+  font-size: 14px;
+}
+
+.header-input:focus {
+  outline-style: none;
+}
